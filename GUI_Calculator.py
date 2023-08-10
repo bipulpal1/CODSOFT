@@ -4,7 +4,6 @@ user_interface = tk.Tk()
 user_interface.geometry("400x350")
 
 calculation = ""
-
 def input_element(element):
     global calculation
     calculation +=str(element)
